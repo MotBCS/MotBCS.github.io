@@ -433,6 +433,11 @@ footer {
     height: 4em;
     border: .3em dashed var(--text-light);
     border-radius: 2em;
+
+    @media (width < 768px) {
+        border: .2em dashed var(--text-light);
+        border-radius: 2em;
+    }
 }
 
 .scroll-icon.ex-1 .wheel {
