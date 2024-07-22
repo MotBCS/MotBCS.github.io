@@ -68,10 +68,10 @@ body {
 .nav_logo a {
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--accent-color_C);
+    color: var(--text-light);
 
     &:hover {
-        color: var(--text-light);
+        color: var(--accent-color_B);
     }
 }
 
