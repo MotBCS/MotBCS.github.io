@@ -1,4 +1,4 @@
-:root{
+:root {
     --base: #f9a875;
     --secondary-color: #fff6d3;
     --accent-color_A: #7c3f58;
@@ -39,7 +39,8 @@ ul {
     list-style: none;
 }
 
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -66,7 +67,7 @@ body {
 }
 
 .nav_logo a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-light);
 
@@ -148,6 +149,8 @@ body {
     font-size: 30px;
 }
 
+
+
 .header-btns {
     display: flex;
     align-items: center;
@@ -183,9 +186,9 @@ body {
     background-color: var(--accent-color_B);
     color: var(--text-light);
     border-radius: 10px;
-    transition: .3s;   
+    transition: .3s;
 
-    &:hover {        
+    &:hover {
         background-color: #d13c55;
         color: var(--text-light);
     }
@@ -194,7 +197,7 @@ body {
 .CV-btn {
     border: 2px dashed var(--text-light);
 
-    &:hover{
+    &:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         transform: scale(1.2);
@@ -202,7 +205,7 @@ body {
 }
 
 .connect-btn {
-    &:hover{
+    &:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         transform: scale(1.2);
@@ -222,17 +225,130 @@ body {
     border-radius: 10px;
 }
 
+.project_container h4 {
+    padding: .75rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    background-color: var(--accent-color_B);
+    color: var(--text-light);
+    border-radius: 10px;
+    transition: .3s;
+    text-align: center;
+
+    &:hover {
+        background-color: #d13c55;
+        color: var(--text-light);
+    }
+}
+
+.direction-btn {
+    &:hover {
+        -webkit-transform: scale(.5);
+        -ms-transform: scale(.5);
+        transform: scale(1.1);
+    }
+}
+
+.direction-text {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-inline: auto;
+    color: var(--accent-color_C);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.direction-img {
+    border-radius: 10px;
+}
+
+
 .project_grid {
     display: grid;
     gap: 2rem;
 }
 
+/* GAME DEVELOPMENT HTML */
+.second-page-title {
+    padding-top: 75px;
+    padding-bottom: 0px;
+    font-size: 2.3rem !important;
+}
+
+.project_container_direction {
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    margin-bottom: 50px;
+    background-color: var(--base);
+}
+
+.project_img {
+    border-radius: 15px;
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-light);
+    font-size: 25px;
+    padding: 15px;
+    font-family: "Poppins", sans-serif;
+
+    &:hover {
+        color: var(--accent-color_B);
+    }
+}
+
+.position_title {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-light);
+    background-color: var(--accent-color_B);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.project_container h5,
+p {
+    font-family: "Poppins", sans-serif;
+}
+
+.project_list {
+    font-family: "Poppins", sans-serif;
+    padding-left: 15px;
+    list-style-type: circle;
+}
+
+.direction_container {
+    margin-bottom: 150px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.view_project {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent-color_C);
+
+
+    &:hover {
+        color: var(--accent-color_B);
+    }
+}
+
+/* GAME DEVELOPMENT HTML END */
+
 .project_card {
     max-width: 450px;
     margin-inline: auto;
-    background-color: var(--base);
     border-radius: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .project_card_details {
@@ -256,11 +372,30 @@ body {
     color: var(--text-light);
 }
 
+.about-text p {
+    color: var(--accent-color_C);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-title {
+    font-weight: bold;
+    color: var(--accent-color_B);
+
+    &:hover {
+        background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: move 450s linear infinite;
+    }
+}
+
 .experience_container {
     padding: 30px;
 }
 
-.experience_container h2{
+.experience_container h2 {
     margin-bottom: 4rem;
     font-size: 2rem;
     font-weight: 700;
@@ -274,7 +409,7 @@ body {
 .experience_list {
     display: grid;
     gap: 3rem;
-    
+
 }
 
 .experience_container li {
@@ -347,7 +482,7 @@ footer {
     color: var(--text-light);
 }
 
-.footer_container .mail_to:hover a{
+.footer_container .mail_to:hover a {
     color: var(--accent-color_B);
 }
 
@@ -355,7 +490,7 @@ footer {
     font-size: 1rem;
 }
 
-.footer_socials{
+.footer_socials {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -365,8 +500,8 @@ footer {
     margin-top: 80px;
 }
 
-.icon{
-    &:hover{
+.icon {
+    &:hover {
         animation: bounce 1s;
     }
 }
@@ -374,7 +509,7 @@ footer {
 
 #copyright {
     font-size: 13px;
-    color: var(--accent-color_B);
+    color: var(--accent-color_C);
     text-align: center;
     margin-top: 50px;
 }
@@ -392,14 +527,14 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap:  1rem;
+        gap: 1rem;
     }
 
     .nav_header {
         padding: 0;
         background-color: transparent;
     }
-    
+
     .nav_menu_btn {
         display: none;
     }
@@ -421,11 +556,12 @@ footer {
 
 }
 
-.scroll-container{
+.scroll-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* SCROLL ICON */
 .scroll-icon {
     position: relative;
@@ -452,17 +588,20 @@ footer {
     animation: ex-1-wheel 1s ease-in-out infinite;
 }
 
+
 @keyframes ex-1-wheel {
     0% {
         transform: translate(-50%, 0);
         opacity: 0;
     }
 
-    20%, 70% {
+    20%,
+    70% {
         opacity: 1;
     }
 
-    90%, 100% {
+    90%,
+    100% {
         transform: translate(-50%, 150%);
         opacity: 0;
     }
@@ -473,14 +612,14 @@ footer {
 .food {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .food::before {
-    content: 
-    url("./images/cookieSandwichIcon.png")  
+    content:
+        url("./images/cookieSandwichIcon.png")
 }
 
 @keyframes animate {
@@ -501,62 +640,73 @@ footer {
 
 /* BOUNCE ANIMATION */
 @keyframes bounce {
-    0%, 20%, 60%, 100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
+
+    0%,
+    20%,
+    60%,
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
     }
-  
+
     40% {
-      -webkit-transform: translateY(-20px);
-      transform: translateY(-20px);
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
     }
-  
+
     80% {
-      -webkit-transform: translateY(-10px);
-      transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
     }
-  }
+}
+
+/* RAINBOW TEXT ANIMATION */
+@keyframes move {
+    to {
+        background-position: 4500vh;
+    }
+}
 
 /* CAKE ------------------------------------------------------ */
 .cake {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .cake::before {
-    content: 
-    url("./images/cakeIcon.png")  
+    content:
+        url("./images/cakeIcon.png")
 }
 
 /* CHEESECAKE ------------------------------------------------------ */
 .cheesecake {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .cheesecake::before {
-    content: 
-    url("./images/cheesecakeIcon.png")  
+    content:
+        url("./images/cheesecakeIcon.png")
 }
 
 /* COOKIE ------------------------------------------------------ */
 .cookie {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .cookie::before {
-    content: 
-    url("./images/cookieIcone.png")  
+    content:
+        url("./images/cookieIcone.png")
 }
 
 
@@ -564,14 +714,14 @@ footer {
 .cremepuff {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .cremepuff::before {
-    content: 
-    url("./images/cremepuffIcon.png")  
+    content:
+        url("./images/cremepuffIcon.png")
 }
 
 
@@ -579,14 +729,14 @@ footer {
 .flan {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .flan::before {
-    content: 
-    url("./images/flanIcon.png")  
+    content:
+        url("./images/flanIcon.png")
 }
 
 
@@ -594,14 +744,14 @@ footer {
 .donut {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .donut::before {
-    content: 
-    url("./images/donutIcon.png")  
+    content:
+        url("./images/donutIcon.png")
 }
 
 
@@ -609,12 +759,12 @@ footer {
 .pancake {
     position: absolute;
     top: 0;
-    color:#fff;
+    color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
 }
 
 .pancake::before {
-    content: 
-    url("./images/pancakesIcon.png")  
-} 
+    content:
+        url("./images/pancakesIcon.png")
+}

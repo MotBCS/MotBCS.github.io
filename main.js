@@ -8,7 +8,7 @@ menuBtn.addEventListener("click", (e) => {
     navLinks.classList.toggle("open");
 
     const isOpen = navLinks.classList.contains("open");
-    menuBtnIcon.setAttribute("class", isOpen? "ri-close-line" : "ri-menu-line")
+    menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line")
 })
 
 navLinks.addEventListener("click", (e) => {
@@ -57,9 +57,14 @@ ScrollReveal().reveal(".project_card", {
     interval: 500,
 });
 
+ScrollReveal().reveal(".direction_container", {
+    ...scrollRevealOption,
+    interval: 500,
+});
+
 
 // EXPERIENCE
-ScrollReveal().reveal(".experience_list li", {
+ScrollReveal().reveal(".about", {
     ...scrollRevealOption,
     interval: 500,
 });
@@ -111,7 +116,7 @@ const foods = [
 
 
 //  COOKIE SANDWHICH
-function food(){
+function food() {
     let e = document.createElement('div');
     e.setAttribute('class', 'food');
     document.body.appendChild(e);
@@ -123,16 +128,16 @@ function food(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     food()
-},2000)
+}, 2000)
 
 // CAKE ICON ---------------------------------------------------------------------
-function cake(){
+function cake() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cake');
     document.body.appendChild(e);
@@ -144,17 +149,17 @@ function cake(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     cake()
-},2000)
+}, 2000)
 
 
 // CHEESECAKE ICON ---------------------------------------------------------------------
-function cheesecake(){
+function cheesecake() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cheesecake');
     document.body.appendChild(e);
@@ -166,17 +171,17 @@ function cheesecake(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     cheesecake()
-},2000)
+}, 2000)
 
 
 // CREMEPUFF ICON ---------------------------------------------------------------------
-function cremepuff(){
+function cremepuff() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cremepuff');
     document.body.appendChild(e);
@@ -188,17 +193,17 @@ function cremepuff(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     cremepuff()
-},2000)
+}, 2000)
 
 
 // COOKIE ICON ---------------------------------------------------------------------
-function cookie(){
+function cookie() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cookie');
     document.body.appendChild(e);
@@ -210,17 +215,17 @@ function cookie(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     cookie()
-},2000)
+}, 2000)
 
 
 // FLAN ICON ---------------------------------------------------------------------
-function flan(){
+function flan() {
     let e = document.createElement('div');
     e.setAttribute('class', 'flan');
     document.body.appendChild(e);
@@ -232,17 +237,17 @@ function flan(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     flan()
-},2000)
+}, 2000)
 
 
 // FLAN ICON ---------------------------------------------------------------------
-function donut(){
+function donut() {
     let e = document.createElement('div');
     e.setAttribute('class', 'donut');
     document.body.appendChild(e);
@@ -254,10 +259,10 @@ function donut(){
     e.style.fontSize = 12 + size + 'px'
     e.style.animationDuration = 2 + duration + 's';
 
-    setTimeout(function(){
+    setTimeout(function () {
         document.body.removeChild(e);
-    },5000)
+    }, 5000)
 }
-setInterval(function(){
+setInterval(function () {
     donut()
-},2000)
+}, 2000)
