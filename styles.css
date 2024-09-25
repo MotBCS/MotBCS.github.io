@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section_container {
     max-width: var(--max-width);
     margin: auto;
@@ -491,6 +495,11 @@ p {
 .image-text {
     text-align: center;
     font-size: 15px;
+}
+
+/* BACK TO TOP */
+.to-top {
+    bottom: 25px;
 }
 
 footer {
