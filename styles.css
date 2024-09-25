@@ -456,6 +456,43 @@ p {
     font-weight: 600;
 }
 
+
+/* ART PROJECT SECTION */
+.project-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.project-filter li {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: var(--accent-color_C);
+    margin: 10px;
+    padding: 5px 20px;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    user-select: none;
+
+}
+
+.project-filter .active {
+    background-color: var(--accent-color_B);
+    color: var(--text-light);
+    border-radius: 10px;
+}
+
+.project-box {
+    margin-bottom: 50px;
+}
+
+.image-text {
+    text-align: center;
+    font-size: 15px;
+}
+
 footer {
     background-color: var(--base);
 }
