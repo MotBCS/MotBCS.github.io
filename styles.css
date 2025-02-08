@@ -661,6 +661,7 @@ footer {
     color: #fff;
     animation: animate 5s linear forwards;
     z-index: -999;
+    overflow: hidden;
 }
 
 .food::before {
