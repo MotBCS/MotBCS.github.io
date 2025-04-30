@@ -56,7 +56,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: url(/images/checkeredBG-mid.png);
     background-attachment: fixed;
-    /* touch-action: pan-y; */
+    touch-action: pan-y;
 }
 
 .nav_bar {
