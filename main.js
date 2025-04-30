@@ -120,10 +120,10 @@ function food() {
     let e = document.createElement('div');
     e.setAttribute('class', 'food');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -144,10 +144,10 @@ function cake() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cake');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -169,10 +169,10 @@ function cheesecake() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cheesecake');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -194,10 +194,10 @@ function cremepuff() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cremepuff');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -219,10 +219,10 @@ function cookie() {
     let e = document.createElement('div');
     e.setAttribute('class', 'cookie');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -244,10 +244,10 @@ function flan() {
     let e = document.createElement('div');
     e.setAttribute('class', 'flan');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
@@ -269,10 +269,10 @@ function donut() {
     let e = document.createElement('div');
     e.setAttribute('class', 'donut');
     document.body.appendChild(e);
-    // e.style.left = Math.random() * + innerWidth + 'px';
-    const spriteWidth = 50; // or the average width of your sprite in px
-    const maxLeft = window.innerWidth - spriteWidth;
-    e.style.left = Math.random() * maxLeft + 'px';
+    e.style.left = Math.random() * + innerWidth + 'px';
+    // const spriteWidth = 50; // or the average width of your sprite in px
+    // const maxLeft = window.innerWidth - spriteWidth;
+    // e.style.left = Math.random() * maxLeft + 'px';
 
     let size = Math.random() * 12;
     let duration = Math.random() * 3;
