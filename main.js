@@ -23,7 +23,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
-    duration: 1000,
+    duration: 500,
 };
 
 ScrollReveal().reveal(".header_container img", {
@@ -32,68 +32,68 @@ ScrollReveal().reveal(".header_container img", {
 
 ScrollReveal().reveal(".header_container h1", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 200,
 });
 
 ScrollReveal().reveal(".header_container h3", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 400,
 });
 
 ScrollReveal().reveal(".header_container p", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 600,
 });
 
 ScrollReveal().reveal(".header-btns", {
     ...scrollRevealOption,
-    delay: 1500,
+    delay: 800,
 });
 
 
 // PROJECTS 
 ScrollReveal().reveal(".project_card", {
     ...scrollRevealOption,
-    interval: 500,
+    interval: 250,
 });
 
 ScrollReveal().reveal(".direction_container", {
     ...scrollRevealOption,
-    interval: 500,
+    interval: 250,
 });
 
 
 // EXPERIENCE
 ScrollReveal().reveal(".about", {
     ...scrollRevealOption,
-    interval: 500,
+    interval: 250,
 });
 
 
 // FOOTER
 ScrollReveal().reveal(".footer_container h2", {
     ...scrollRevealOption,
-    interval: 500,
+    interval: 200,
 });
 
 ScrollReveal().reveal(".footer_container p", {
     ...scrollRevealOption,
-    delay: 500,
+    delay: 400,
 });
 
 ScrollReveal().reveal(".footer_container .mail_to", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 600,
 });
 
 ScrollReveal().reveal(".footer_socials", {
     ...scrollRevealOption,
-    delay: 1500,
+    delay: 800,
 });
 
 ScrollReveal().reveal("#copyright", {
     ...scrollRevealOption,
-    delay: 1500,
+    delay: 800,
 });
 
 

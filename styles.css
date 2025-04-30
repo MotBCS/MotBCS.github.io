@@ -16,6 +16,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 html {
@@ -47,12 +48,15 @@ html,
 body {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     background: url(./images/checkeredBG-mid.png);
     background-attachment: fixed;
+    touch-action: pan-y;
 }
 
 .nav_bar {
